@@ -68,6 +68,7 @@ function findAllStudents(){
             "action" => false
             
     ],
+    
     [ "image" => 'img1.png',
     "nom" => 'modou',
     "prenom" => 'ndiaye',
@@ -76,6 +77,24 @@ function findAllStudents(){
     "telephone" => '777777799',
     "action" => false
     
+],
+[ "image" => 'img1.png',
+"nom" => 'modou',
+"prenom" => 'ndiaye',
+"email" => 'modou@gmail?com',
+"genre" => 'M',
+"telephone" => '777777799',
+"action" => false
+
+],
+[ "image" => 'img1.png',
+"nom" => 'modou',
+"prenom" => 'ndiaye',
+"email" => 'modou@gmail?com',
+"genre" => 'M',
+"telephone" => '777777799',
+"action" => false
+
 ]
     ];
 

@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>gestion ODC</title>
     <link rel="stylesheet" href="../Public/css/stylesConnexion.css">
     <link rel="stylesheet" href="../Public/css/style.css">
     <!-- A revoir le css  -->
@@ -46,16 +46,9 @@
             <div class="profil">
                 <img src="../Public/images/icon.png" class="image" alt="">
                 <div class="info">
-                    <p>Mamadou Gueye</p>
+                    <p>Elimane  GNING</p>
                     <small>Admin <i class="fa fa-angle-down" aria-hidden="true"></i></small>
                 </div>
-            </div>
-            <!-- <div class="hoverable">
-                <a href="profile.html" class="btn">Voir profile</a>
-                <div class="flex-btn">
-                    <a href="login.html" class="option-btn">Se déconnecter</a>
-                </div>
-            </div> -->
         </div>
     </header>
     <div class="side-bar">

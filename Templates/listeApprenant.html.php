@@ -36,9 +36,10 @@
 
                 <div class="line4"><img src="../Public/images/img.png" width="5%" height="5%"></div>
                 <div class="container-table">
+                    
                     <table class="line5">
-                        <thead>
-                            <tr >
+            
+                            <tr>
                                 <th class="titre" data-label="Image">Image</th>
                                 <th class="titre" data-label="Nom">Nom</th>
                                 <th class="titre prenom" data-label="Prenom">Prenom</th>
@@ -47,7 +48,7 @@
                                 <th class="titre" data-label="Telephones">Telephones</th>
                                 <th class="titre" data-label="Actions">Actions</th>
                             </tr>
-                        </thead>
+            
                         <tbody>
 
                             <?php foreach (findAllStudents() as $student) :  ?>
@@ -234,6 +235,9 @@
 
     </div>
 </div>
+
+
+
 
 
 <div class="excel" id="popupFILE">
