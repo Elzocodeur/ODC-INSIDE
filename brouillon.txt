@@ -1,0 +1,56 @@
+// Inclure les fichiers nécessaires pour l'initialisation
+require_once 'config.php'; // Votre fichier de configuration
+require_once 'functions.php'; // Vos fonctions utiles
+
+
+
+
+
+
+               <!--  ======================================================= Contetenue à intégrér ================================================================== --> 
+
+
+               <div class="section1">
+                <div class="container1">
+                    <div class="titre">
+                        <p>Liste des Promotions <span style="color: #009087;">(1)</span></p>
+                        <input type="search" id="searchbar" placeholder="Rechercher ici...">
+                        <i class="fasearch fa-solid fa-magnifying-glass fa-xs" style="color: #009087;"></i>
+                        <button class="nouvelle">+ Nouvelle</button>
+                    </div>
+                    <div class="tabpromos">
+                        <table>
+                            <thead>
+                                <th>Libelle</th>
+                                <th>Date Début </th>
+                                <th>Date Fin</th>
+                                <th>Actions</th>
+                            </thead>
+                            <tr>
+                                <td style="display: flex; align-items: center; "><img style="height: 15%; width: 10%;" src="/Projet/images/image-removebg-preview.png" alt="">Promotion 6</td>
+                                <td style="text-align: center;">2024-02-01</td>
+                                <td style="text-align: center;">2024-11-01</td>
+                                <td><input type="checkbox"></td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="footer-pres">
+                        <span style="font-weight: 100; color: rgb(54, 54, 54); position: relative; left: 0.1%;">Items per page: </span>
+                            <select name="itemsperpage" id="itemsperpage">
+                                <option value="1">10</option>
+                                <option value="2">20</option>
+                                <option value="3">30</option>
+                            </select>
+        
+                            <div class="navigation">
+                                <span id="numview">1 - 10 of 100</span>
+                                <button>I<i class="fa-solid fa-chevron-left"></i></button>
+                                <button><i class="fa-solid fa-chevron-left"></i></button>
+        
+                                <button><i class="fa-solid fa-chevron-right"></i></button>
+                                <button><i class="fa-solid fa-chevron-right"></i>I</button>
+                            </div>
+                    </div>
+                </div>
+            </div>
+         
