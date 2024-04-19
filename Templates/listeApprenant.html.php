@@ -15,7 +15,7 @@
     </div>
     <div class="content">
         <!-- partie2 lister apprenants -->
-        <div id="container">
+        <for id="container">
             <div class="flex-col-left">
             </div>
             <div class="flex-col-right">
@@ -29,13 +29,16 @@
                         <button class="list btn">Liste des Exclus</button>
                     </div>
                 </div>
-                <div class="line3">
+                <form class="line3" action="" method="post">
                     <span><i class="fa-solid fa-magnifying-glass"></i></span>
                     <input type="text" placeholder="Filtrer">
-                </div>
+                </form>
 
                 <div class="line4"><img src="../Public/images/img.png" width="5%" height="5%"></div>
                 <div class="container-table">
+
+
+                
                     
                     <table class="line5">
             
@@ -106,7 +109,7 @@
 
                 </div>
             </div>
-        </div>
+        </for>
     </div>
 </section>
 <!-- Le Modal (popup) -->

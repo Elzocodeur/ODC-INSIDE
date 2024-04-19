@@ -6,17 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>gestion ODC</title>
     <link rel="stylesheet" href="../Public/css/stylesConnexion.css">
+
     <link rel="stylesheet" href="../Public/css/style.css">
+
     <!-- A revoir le css  -->
     <link rel="stylesheet" href="../Public//css/style.css">
-    <link rel="stylesheet" href="../Public/css/promotion.css">
-    <link rel="stylesheet" href="../Public/css/promotions.css">
+    <!-- <link rel="stylesheet" href="../Public/css/promotion.css">
+    <link rel="stylesheet" href="../Public/css/promotions.css"> -->
     
     <!-- inclusion css liste Apprenant -->
     <link rel="stylesheet" href="../Public/css/listeA.css">
 
     <!-- inclusion css liste Presence -->
     <link rel="stylesheet" href="../Public/css/presence.css">
+
+    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="https://kit.fontawesome.com/d2ba3c872c.js" crossorigin="anonymous"></script>
 </head>
@@ -51,6 +55,9 @@
                 </div>
         </div>
     </header>
+
+
+
     <div class="side-bar">
 
         <div id="close-btn">
@@ -63,15 +70,23 @@
         </div>
 
         <nav class="navbar">
+
             <a href="#"><i class="fa fa-align-right" aria-hidden="true"></i><span>Dashboard</span></a>
+
             <a href="index.php?page=list-promos"><i class="fa fa-list-alt" aria-hidden="true"></i></i><span>Promos</span></a>
+
             <a href="#"><i class="fa fa-calendar-plus-o" aria-hidden="true"></i></i><span>Réferenciels</span></a>
-            <a href="index.php?page=listeApprenant.html"><i class="fa fa-user-circle-o" aria-hidden="true"></i>
+
+            <a href="index.php?page=listeApprenant"><i class="fa fa-user-circle-o" aria-hidden="true"></i>
                 </i><span>Utilisateurs</span></a>
-            <a href="#"><i class="fa fa-user-circle-o" aria-hidden="true"></i>
+
+            <a href="?page=visiteurs"><i class="fa fa-user-circle-o" aria-hidden="true"></i>
                 </i><span>Visiteurs</span></a>
+
             <a href="index.php?page=listePre"><i class="fa fa-user-circle-o" aria-hidden="true"></i>
                 </i><span>Présence</span></a>
+                
             <a href="#"><i class="fa fa-calendar-plus-o" aria-hidden="true"></i></i><span>Evénements</span></a>
+            
         </nav>
     </div>

@@ -17,7 +17,7 @@ session_start();
 <body>
   <div class="tout">
     <div class="container">
-      <img class="logo" src="image.png" alt="">
+      <img class="logo" src="../Public/images/images.png" alt="">
       <div class="login-form">
         <div class="first">Email et Mot de Passe Requis</div>
         <label for="email">Adresse Email <span>*</span></label>
